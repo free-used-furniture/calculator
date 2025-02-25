@@ -1,5 +1,10 @@
 
-  
+html {
+  margin: 0;
+  padding: 0;
+  background: rgb(248, 244, 244);
+}
+
   .calculator {
     width: 350px; 
     height: 450px;
@@ -19,13 +24,15 @@
   
   
   .display {
-    width: 100%;
+    width: 90%;
     background: white;
     padding: 15px;
     font-size: 2rem;
     text-align: right;
-    border-radius: 5px;
+    border-radius: 15px;
     margin-bottom: 15px;
+    margin-left: 10px;
+    margin-right: 10px;
     height: 60px;
     display: flex;
     align-items: center;
@@ -60,6 +67,7 @@
   .button.clear {
     background: #7e0ebf;
     grid-column: span 4;
+    margin-top: 10px;
   }
   
   .button.clear:hover {
